@@ -1,0 +1,135 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+body {
+    border: 10px groove #9ff338;
+    background-image: url("./background.jpg");
+}
+
+/* head */
+.parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_head {
+    height: 50px;
+    width: 270px;
+    color: white;
+    background-color: black;
+    border: 5px solid red;
+}
+
+.welcome {
+    border-radius: 20px;
+    padding: 12px 30px;
+    margin: 20px 40px;
+    height: 70px;
+    padding: 21px 24px 0px 20px;
+}
+
+.home {
+    line-height: 60px;
+    padding: 0px 21px 0px 47px;
+    border-radius: 25px;
+    font-style: italic;
+    position: absolute;
+    top: 38px;
+    left: 181px;
+    width: 195px;
+}
+
+.email {
+    line-height: 30px;
+    padding: 0px 21px 0px 47px;
+    border-radius: 25px;
+    height: 93px;
+    width: 190px;
+    margin: 20px 15px 0px 0px;
+    font-style: italic;
+}
+
+/* middle */
+
+.offers {
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    background-color: #44a99f;
+    border: 5px solid #6e7578;
+    text-align: center;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.off {
+    text-decoration-line: underline;
+    font-size: larger;
+}
+
+.two {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.here {
+    width: 290px;
+    background-color: white;
+    border: 5px dashed red;
+}
+
+form,
+h3 {
+    text-align: center;
+    color: #c38681;
+}
+
+input {
+    text-align: center;
+}
+
+.head_menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    height: 30px;
+    width: 280px;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    border: 5px solid red;
+    text-align: center;
+    padding: 8px 7px 4px;
+}
+
+/* MENU */
+
+.contaner {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px 20px;
+}
+
+.box {
+    width: 340px;
+    color: blueviolet;
+    border-radius: 30px;
+    border: 3px solid green;
+    background-color: aqua;
+    /* list-style-position: inside; */
+    text-indent: 22%;
+}
+
+.div_padddin {
+    padding-left: 50px;
+}
